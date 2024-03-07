@@ -7,6 +7,7 @@ header {
 body{
 	height: 100vh;
 	background-image: url('../img/silver-city-background.jpg');
+	overflow: hidden;
 }
 
 p {
@@ -16,6 +17,12 @@ p {
 }
 
 h1 {
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
 	font-family: "Abril Fatface", serif;
 	font-weight: 400;
 	font-style: normal;
@@ -41,6 +48,7 @@ h3 {
   border-width: 2px;
   border-color: rgba(212, 204, 192, 1);
   border-radius: 10px;
+  overflow-y: auto;
 }
 
 .column.sidebar {
@@ -50,5 +58,30 @@ h3 {
 
 .column.maintext {
   width: 88%;
-  overflow-y: scroll;
+}
+
+.linkList > li  {
+	font-family: "Old Standard TT", serif;
+	font-weight: 400;
+	font-style: normal;
+	list-style-type: none;
+}
+
+a.broken {
+	color: red;
+}
+
+a:link:not(.broken){
+	color: rgba(212, 204, 192, 1)
+}
+
+a:visited:not(.broken){
+	color: rgba(201, 180, 98, 1)
+}
+
+hr.mainBodyBreak {
+	height:1px;
+	border-width:0;
+	color:rgba(212, 204, 192, 1);
+	background-color:rgba(212, 204, 192, 1);
 }
