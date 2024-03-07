@@ -2,12 +2,13 @@ header {
 	border-bottom-style: solid;
 	border-width: 2px;
 	border-color: gray;
+	text-align:center;
 }
 
 body{
 	height: 100vh;
 	background-image: url('../img/silver-city-background.jpg');
-	overflow: hidden;
+	overflow: auto;
 }
 
 p {
@@ -60,7 +61,6 @@ h3 {
   border-width: 2px;
   border-color: rgba(212, 204, 192, 1);
   border-radius: 10px;
-  overflow-y: auto;
 }
 
 .column.sidebar {
@@ -123,4 +123,37 @@ nav.pageNav{
 .pageNav > ol {
 	text-align: right;
 	list-style-position: inside;
+}
+
+table.summaryBar{
+	width:200px;
+	float:right;
+	background-color: rgba(212, 204, 192, 1);
+}
+
+td.summaryEntryHead{
+	text-align:center;
+	background-color:rgba(189, 172, 148, 1);
+	border-color:rgba(189, 172, 148, 1);
+}
+
+td.summaryEntryHead > p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+td.summaryImage{
+	height: 200px;
+	width: 200px;
+	table-layout: fixed;
+}
+
+td.summaryVariable{
+	width: 30%;
+	background-color:rgba(189, 172, 148, 1);
+	border-color:rgba(189, 172, 148, 1);
+}
+
+td.summaryValue{
+	width: 80%;
 }
