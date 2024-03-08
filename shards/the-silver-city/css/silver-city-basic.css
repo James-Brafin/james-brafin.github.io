@@ -48,6 +48,14 @@ h3 {
 	margin-top: 10px;
 }
 
+h4 {
+	font-family: "Abril Fatface", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 10px;
+	font-size: small;
+}
+
 .pagebody {
 	display: flex;
 }
